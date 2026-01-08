@@ -162,8 +162,8 @@ function showCountdown() {
 
     container.innerHTML =
       `felices: <b>${days}</b> días mi amor<br>` ;
-    //   `Nuestro aniversario: <b>${eventDays}d ${eventHours}h ${eventMinutes}m ${eventSeconds}s</b>`;
-    // container.classList.add('visible');
+      `Nuestro aniversario: <b>${eventDays}d ${eventHours}h ${eventMinutes}m ${eventSeconds}s</b>`;
+     container.classList.add('visible');
   }
   update();
   setInterval(update, 1000);
