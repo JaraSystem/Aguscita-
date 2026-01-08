@@ -161,7 +161,7 @@ function showCountdown() {
     let eventSeconds = Math.max(0, Math.floor((eventDiff / 1000) % 60));
 
     container.innerHTML =
-      `felices: <b>${days}</b> días mi amor<br>` ;
+      `felices <b>${days}</b> días mi amor<br>` ;
       `Nuestro aniversario: <b>${eventDays}d ${eventHours}h ${eventMinutes}m ${eventSeconds}s</b>`;
      container.classList.add('visible');
   }
